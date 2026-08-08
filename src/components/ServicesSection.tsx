@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { HERO_IMAGES, TRANSLATIONS } from '../data/companyData';
+import heavyMachineryImg from '../assets/images/heavy_machinery_fleet_1786165680809.jpg';
 import { Language, ServiceCategory } from '../types';
 import {
   Building2,
@@ -73,7 +74,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
     machinery: {
       title: 'Heavy Machinery & Fleet Equipment Rental',
       subtitle: '140+ Unit Fleet of CAT Excavators, Asphalt Pavers, Tandem Rollers & Cranes',
-      image: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80',
+      image: heavyMachineryImg,
       capabilities: [
         'Caterpillar 330D Hydraulic Excavators with Skilled Operators',
         'Vögele Super 1800-3 German Asphalt Paving Units',

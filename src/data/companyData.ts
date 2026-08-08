@@ -2,6 +2,9 @@ import { Project, Equipment, Certification, Milestone, FAQItem } from '../types'
 import heroBannerImg from '../assets/images/hero_highway_banner_1786080249840.jpg';
 import buildingConstImg from '../assets/images/govt_building_complex_1786080263334.jpg';
 import societyDevImg from '../assets/images/housing_society_dev_1786080274897.jpg';
+import judicialCourtImg from '../assets/images/judicial_court_building_1786165640789.jpg';
+import riverBridgeImg from '../assets/images/river_bridge_construction_1786165654493.jpg';
+import paradiseHousingImg from '../assets/images/paradise_valley_housing_1786165667471.jpg';
 
 export const HERO_IMAGES = {
   heroBanner: heroBannerImg,
@@ -126,7 +129,7 @@ export const PROJECTS_LIST: Project[] = [
       { label: 'Courtrooms', value: '24 Judicial Chambers' },
       { label: 'Facade Finish', value: 'Granite & White Marble Elevation' },
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: judicialCourtImg,
     highlights: [
       'Delivered fully furnished with executive timber paneling and soundproof courtrooms.',
       'Equipped with 100% solar back-up power generation system.',
@@ -149,7 +152,7 @@ export const PROJECTS_LIST: Project[] = [
       { label: 'Piers & Abutments', value: '12 Heavy Bored Pile Foundations' },
       { label: 'Road Width', value: '24 Meters Total Width' },
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: riverBridgeImg,
     highlights: [
       'Heavy pile driving in fast-flowing riverbed completed in record winter low-water period.',
       'Tested under 120-ton heavy cargo transport load before public inauguration.',
@@ -172,7 +175,7 @@ export const PROJECTS_LIST: Project[] = [
       { label: 'Tough Tile Paver Streets', value: '180,000 Sq. Meters' },
       { label: 'Drainage Pipe Network', value: '14,000 Rft RCC Pipes' },
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80',
+    imageUrl: paradiseHousingImg,
     highlights: [
       'High speed installation of interlocking concrete pavers for long durability.',
       'Includes 50,000 Liters septic treatment and rainwater harvesting pits.',

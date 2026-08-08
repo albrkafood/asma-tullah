@@ -1,6 +1,6 @@
 import React from 'react';
 import { COMPANY_INFO, COMPANY_MILESTONES, TRANSLATIONS } from '../data/companyData';
-import siteEngineersImg from '../assets/images/asmatullah_site_engineers_1786080334894.jpg';
+import siteEngineersImg from '../assets/images/pakistani_civil_engineers_1786165493474.jpg';
 import { Language } from '../types';
 import {
   Shield,
